@@ -1,0 +1,37 @@
+.overview {
+  text-align: center;
+}
+
+.overview__logo {
+  width: 90px;
+}
+
+.overview__pay {
+  width: 100%;
+  background-color: #ff7700;
+  color: #ffffff;
+  margin: 20px 0;
+}
+
+.overview__pay:focus {
+  background-color: #ff7700;
+  color: #ffffff;
+}
+
+.overview__option {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #000000;
+  border-top: 1px solid #000000;
+}
+
+.overview__option-text .anticon {
+  vertical-align: 1px;
+  padding-right: 20px;
+}
+
+.anticon {
+  line-height: 1rem;
+  vertical-align: middle;
+}
